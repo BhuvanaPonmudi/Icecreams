@@ -1,0 +1,13 @@
+[
+  { "id": 1, "caption": "Scoops of different flavours", "icon": "img11.jpg" },
+  {
+    "id": 2,
+    "caption": "Scoops of different flavours",
+    "icon": "img22.jpg"
+  },
+  {
+    "id": 3,
+    "caption": "Scoops of different flavours",
+    "icon": "img33.png"
+  }
+]

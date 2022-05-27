@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "icon": "APPLE.jpg",
+    "type": "allfruit",
+    "desc": "Apples are an incredibly nutritious fruit that offers multiple health benefits. They're rich in fiber and antioxidants. Eating them is linked to a lower risk of many chronic condition. "
+  },
+  {
+    "id": 2,
+    "icon": "Banana.jpg",
+    "type": "allfruit",
+    "desc": "Bananas are a good source of several vitamins and minerals, especially potassium, vitamin B6, and vitamin C ( 1 ). Potassium. Bananas are a good source of potassium ."
+  },
+  {
+    "id": 3,
+    "icon": "BLACKCURRENT.jpg",
+    "type": "allfruit",
+    "desc": "Black currants are full of antioxidants, including anthocyanins. Anthocyanins give black currants their characteristic dark color and fight free radicals in the body, reducing oxidative stress and cell damage."
+  },
+  {
+    "id": 4,
+    "icon": "BUTTERSCOTCH.webp",
+    "type": "allperennial",
+    "desc": "Butterscotch provides health benefits. Butterscotch helps to certain meet nutritional needs. It improves immune health, helps to improve digestion."
+  },
+  {
+    "id": 5,
+    "icon": "chickoo.jpg",
+    "type": "allfruit",
+    "desc": "Being rich in nutrients, chikoo is a storehouse of Vitamin E, A and C, all of which are great for skin health and has amazing moisturising properties."
+  },
+  {
+    "id": 6,
+    "icon": "CHOCOLATE.jpg",
+    "type": "allperennial",
+    "desc": "Dark chocolate is a rich source of fiber, loaded with iron, magnesium, zinc, copper, and other minerals. You'll get the most flavanols from chocolate that's 70% or more dark."
+  },
+  {
+    "id": 7,
+    "icon": "COFFEE.jpg",
+    "type": "allperennial",
+    "desc": "Coffee contains caffeine, a central nervous system stimulant that is known for its ability to fight fatigue and increase energy levels."
+  },
+  {
+    "id": 8,
+    "icon": "GRAPE.jpg",
+    "type": "allfruit",
+    "desc": "Grapes are a good source of potassium, a mineral that helps balance fluids in your body. Potassium can help bring down high blood pressure and lower your risk of heart disease and stroke."
+  },
+  {
+    "id": 9,
+    "icon": "GUAVA.jpg",
+    "type": "allfruit",
+    "desc": "Guava fruit or leaf extract may have a positive effect on heart health by lowering blood pressure, decreasing bad cholesterol, and increasing good cholesterol."
+  },
+  {
+    "id": 10,
+    "icon": "KULFI.jpg",
+    "type": "allperennial",
+    "desc": "kulfi is a healthier version of ice cream, forgoing eggs and preservatives in favor of simply milk, sugar and natural flavors."
+  },
+  {
+    "id": 11,
+    "icon": "LEMON.jpg",
+    "type": "allfruit",
+    "desc": "The vitamins, fiber, and plant compounds in lemons can provide essential health benefits. The pulp, rind, and juice are rich with vitamins that stimulate immunity and reduce the risk of disease."
+  },
+  {
+    "id": 12,
+    "icon": "LYCHEE.jpg",
+    "type": "allfruit",
+    "desc": "Lychees contain several healthy minerals, vitamins, and antioxidants, such as potassium, copper, vitamin C, epicatechin, and rutin. These may help protect against heart disease, cancer, and diabetes."
+  },
+  {
+    "id": 13,
+    "icon": "MANGO.jpg",
+    "type": "allfruit",
+    "desc": "Mangoes are a great source of magnesium and potassium, both of which are connected to lower blood pressure and a regular pulse."
+  },
+  {
+    "id": 14,
+    "icon": "MUSKMELON.jpg",
+    "type": "allfruit",
+    "desc": "Muskmelons are nutrient-dense and provide a wide assortment of important vitamins and minerals. They are especially high in vitamin C, a water-soluble vitamin that helps prevent disease."
+  },
+  {
+    "id": 15,
+    "icon": "ORANGE.jpg",
+    "type": "allfruit",
+    "desc": "Oranges are a treasure trove of nutrients and protective plant compounds, including vitamins, minerals, and antioxidants.."
+  },
+  {
+    "id": 16,
+    "icon": "PAPAYA.jpg",
+    "type": "allfruit",
+    "desc": "Papayas contain high levels of antioxidants vitamin A, vitamin C, and vitamin E. "
+  },
+  {
+    "id": 17,
+    "icon": "PISTA.jpg",
+    "type": "allperennial",
+    "desc": "Compared to most nuts, pistachios have a lower fat and calorie content and contain the highest amount of potassium. They’re especially rich in phytosterols, all of which support cardiovascular health."
+  },
+  {
+    "id": 18,
+    "icon": "STRAWBERRY.jpg",
+    "type": "allperennialfruit",
+    "desc": "Strawberry has 67% less carbohydrates than vanilla ice cream. Strawberry is an excellent source of Vitamin C. Vanilla ice cream has more riboflavin, pantothenic acid and Vitamin B12."
+  },
+  {
+    "id": 19,
+    "icon": "VANNILA.jpg",
+    "type": "allperennial",
+    "desc": " Vanilla ice cream contains a high amount of calories and fat. If you want to add ice creams to your well-balanced diet, it should be done in moderation."
+  },
+  {
+    "id": 20,
+    "icon": "WATERMELON.jpg",
+    "type": "allfruit",
+    "desc": "Watermelon's high water content, antioxidants, and amino acids may make for a better workout. It's also high in potassium, a mineral that could cut down on cramps at the gym."
+  }
+]

@@ -1,0 +1,39 @@
+
+
+.center {
+  table-layout: 20px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  border-collapse: collapse;
+}
+
+table tr {
+  border-bottom: 5px solid black;
+}
+table td {
+  padding-right: 40px;
+}
+table th {
+  color: blue;
+  padding-right: 20px;
+}
+.text {
+  margin-top: 100px;
+  text-align: center;
+}
+.home1 {
+  text-align: center;
+margin-top: -90px;
+  height: 100%;
+  width: 100%;
+}
+.bckplace {
+  float: right;
+}
+.searchOption{
+   text-align: center;
+   margin:0 auto;
+}

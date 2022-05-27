@@ -1,0 +1,20 @@
+.Login {
+  margin-top: 0px;
+  padding: 0px 0px;
+  text-align: center;
+
+}
+
+.Login form {
+  text-align: left;
+  margin: 10px 350px;
+  max-width: 320px;
+}
+.head {
+  text-align: center;
+}
+
+.signup {
+  margin-top: 80px;
+  text-align: center;
+}

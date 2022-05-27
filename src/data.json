@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "doorno": 52,
+    "address": "RS Puram",
+    "city": "Coimbatore"
+  },
+  {
+    "id": 2,
+    "doorno": 87,
+    "address": "TNagar",
+    "city": "Chennai"
+  },
+  {
+    "id": 3,
+    "doorno": 2,
+    "address": "Park Road",
+    "city": "Bangalore"
+  },
+  {
+    "id": 4,
+    "doorno": 23,
+    "address": "Kempegowda Airport",
+    "city": "Bangalore"
+  },
+  {
+    "id": 5,
+    "doorno": 23,
+    "address": "HSR",
+    "city": "Bangalore"
+  },
+  {
+    "id": 6,
+    "doorno": 23,
+    "address": "Madivala",
+    "city": "Bangalore"
+  },
+  {
+    "id": 7,
+    "doorno": 23,
+    "address": "ECR",
+    "city": "Chennai"
+  },
+  {
+    "id": 8,
+    "doorno": 23,
+    "address": "Anna Nagar",
+    "city": "Chennai"
+  },
+  {
+    "id": 9,
+    "doorno": 23,
+    "address": "Avinashi Road",
+    "city": "Coimbatore"
+  },
+  {
+    "id": 10,
+    "doorno": 23,
+    "address": "Peelamedu",
+    "city": "Coimbatore"
+  }
+]
