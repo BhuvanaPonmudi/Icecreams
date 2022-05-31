@@ -12,7 +12,7 @@ import Home from "./home";
 import Flavours1 from "./flavours.js";
 import Nutrition from "./nutrition.js";
 import Stores from "./store";
-
+import Prices from "./price";
 
 function HeaderBar({val}) {
   let user = localStorage.getItem("EmailID");
@@ -61,8 +61,13 @@ const [isOpen, setIsOpen] = useState(false);
             </NavLink>
           </NavItem>
           <NavItem>
+            <NavLink href="/price">
+             Prices
+            </NavLink>
+          </NavItem>
+          <NavItem>
             <NavLink href="/store">
-        Stores
+             Stores
             </NavLink>
           </NavItem>
         </Nav>
@@ -82,6 +87,7 @@ const [isOpen, setIsOpen] = useState(false);
           <Route path="/" element={<Home></Home>} />
           <Route path="/flavours" element={<Flavours1></Flavours1>} />
           <Route path="/nutrition" element={<Nutrition></Nutrition>} />
+          <Route path="/price" element={<Prices></Prices>} />
           <Route path="/store" element={<Stores></Stores>} />
         </Routes>
         </div>
