@@ -1,18 +1,24 @@
 input[type="checkbox"]{
     width:30%;
     line-height: 1.7;
+    opacity: 0;
 
 }
 
 .varietiesmaincontainer{
     line-height: 3.0;
 }
-
+.varietiesheader{
+    font-family: fantasy;
+    font-size: 30px;
+    color:tomato;
+    padding-left:30px;
+}
 .checkandvalue{
-    background-color:brown;
-    color:white;
+    background-color:blueviolet;
+    color:black;
     margin-bottom: 20px;
     width:200px;
-    
+    margin-left:10px; 
+    text-align: left;
 }
-.checkandvalue{}

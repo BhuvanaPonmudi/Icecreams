@@ -5,28 +5,36 @@ import Icecreamflavours from '../components/icecreamflavours';
 import Buttoncomponent from '../components/Buttoncomponent';
 import {createContext} from "react";
 
-export const Storecontext= createContext();
 
+export const Storecontext = createContext();
 
-function Stores(props) {
+function Stores() {
 const [display,setDisplay] = useState(true);
 const [flavour,setFlavour] = useState("");
-
-
+const [color,setColor] = useState("");
+ 
   return (
     <div className='maincontainer'>
-      <Storecontext.Provider value={{display,setDisplay}}>
+    
+      <Storecontext.Provider value={{display,setDisplay,color,setColor}}>
+
+
       <div className="varieties">
        <Varieties/>
       </div>
+
+
       <div className="flavoursstore">
       <Icecreamflavours setFlavour ={setFlavour}/>
-      
       </div>
+
+
       <div className="BuyNow">
        <Buttoncomponent name={flavour}/>
       </div>
+
       </Storecontext.Provider>
+    
     </div>
   )
 }

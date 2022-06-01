@@ -5,7 +5,7 @@ import { Storecontext } from '../pages/store';
 
 
 function Buttoncomponent(props) {
-    const {display,setDisplay}= useContext(Storecontext);
+    const {display}= useContext(Storecontext);
 
     
   return (

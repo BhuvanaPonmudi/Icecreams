@@ -7,48 +7,46 @@ import { Storecontext } from '../pages/store';
 
 
 function Varieties() {
+  let checkedCount = 0;
+  const receivedData = [{ value: "Cakes" ,id :"v1"}, { value: "Scoops",id:"v2" }, { value: "Bars",id:"v3" },{value :"Sticks",id:"v4"},{value :"Cones",id:"v5"},{value :"Pizzas",id:"v6"}];
+  const [checkedState, setCheckedState] = useState(new Array(receivedData.length).fill(false));
+  const {color,setDisplay,display}= useContext(Storecontext);
 
-    const {display,setDisplay}= useContext(Storecontext);
+  const handleOnChange = (position) => {
+  const updatedCheckedState = checkedState.map((item, index) =>
+    index === position ? !item : item
+  );
+  setCheckedState(updatedCheckedState);
+
+   if (updatedCheckedState.includes(true)) {             
+      checkedCount++;
+
+     if (checkedCount>0){
+       setDisplay(false);
+     }}
+  else{
+  if (checkedCount<=0){
+      setDisplay(true);
+    
+  }
   
-    let checkedCount = 0;
+}
 
-    const handleChange = event => {
-
-        if (event.target.checked) {
-         checkedCount++;
-         if (checkedCount>0){
-             setDisplay(false);
-         }
-          
-        }
-        else{
-            checkedCount--;
-            if (checkedCount<0){
-                setDisplay(true);
-            }
-            
-        }
-       
-    }
-
-  
+  }
   return (
     <div className="varietiesmaincontainer">
-        <p>Check the Varieties Below</p>
-       <div className="checkandvalue"><input type="checkbox" name="cakes" value="cakes" onChange={handleChange}/>
-       <Label>Icecream Cakes</Label></div>
-       <div className="checkandvalue"><input type="checkbox" name="scoops" value="scoops" onChange={handleChange}/>
-       <Label>Icecream Scoops</Label></div>
-       <div className="checkandvalue"><input type="checkbox" name="bars" value="bars" onChange={handleChange}/>
-       <Label>Icecream Bars</Label></div>
-       <div className="checkandvalue"><input type="checkbox" name="sticks" value="sticks" onChange={handleChange}/>
-       <Label>Icecream Sticks</Label></div>
-       <div className="checkandvalue"><input type="checkbox" name="cones" value="cones" onChange={handleChange}/>
-       <Label>Icecream Cones</Label></div>
-       <div className="checkandvalue"> <input type="checkbox" name="pizzas" value="pizzas" onChange={handleChange}/>
-       <Label>Icecream pizzas</Label></div>
+    <p className='varietiesheader'>Varieties</p>
+    {receivedData?.map((data, index) => (
+      <div className="checkandvalue" style={{backgroundColor :checkedState[index]===true?color:""}}>
+      <input type="checkbox" value={data.value} id={data.id} checked={checkedState[index]}
+                    onChange={() =>handleOnChange(index)}/>
+          <Label for ={data.id}>Icecream {data.value}</Label></div>
+    ))}
+
      </div>
-  )
-}
+  )}
+ 
+
+
 
 export default Varieties;
